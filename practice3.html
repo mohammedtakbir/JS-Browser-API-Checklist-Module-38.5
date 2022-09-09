@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <section class="container mx-auto">
+        <h1 class="text-4xl text-center my-5">Contact With Me!</h1>
+
+        <div class="flex">
+            <div>
+                <label for="">Name</label>
+                <input class="p-1 rounded-sm w-80 block text-black" type="text" name="" id="name-field" placeholder="Name">
+            </div>
+            <button onclick="sendName()" class="bg-teal-600 mx-5 px-4 rounded-md text-lg">Send Name</button>
+            <button onclick="deleteName()" class="bg-teal-600 px-4 rounded-md text-lg">Delete Name</button>
+        </div>
+        <div class="flex mt-12">
+            <div>
+                <label for="">Email</label>
+                <input class="p-1 rounded-sm w-80 block text-black" type="text" name="" id="email-field" placeholder="Email"> 
+            </div>
+            <button onclick="sendEmail()" class="bg-teal-600 mx-5 px-4 rounded-md text-lg">Send Email</button>
+            <button onclick="deleteEmail()" class="bg-teal-600 px-4 rounded-md text-lg">Delete Email</button>
+        </div>
+        <div class="flex mt-12">
+            <div>
+                <label for="">Message</label>
+                <textarea name="" id="message-field" cols="40" rows="2" class="block text-black"></textarea>
+            </div>
+            <button onclick="sendMessage()" class="bg-teal-600 mx-5 px-4 rounded-md text-lg">Send Message</button>
+            <button onclick="deleteMessage()" class="bg-teal-600 px-4 rounded-md text-lg">Delete Message</button>
+        </div>
+    </section>
+
+    <div class="mt-12 text-center">
+        <button onclick="resetBtn()" class="bg-teal-600 mx-5 py-1 px-5 rounded-md text-lg">Reset</button>
+    </div>
+
+
+
+    <script src="js/practice3.js"></script>
+</body>
+</html>

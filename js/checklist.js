@@ -45,14 +45,5 @@ console.log('fourth') */
     //* 2. data is store for a session
     //* 3. data is not available for future session
 
-
-
-
-
-
-
-
-
-
-
 //? ১০. stackoverflow নামে একটা ওয়েবসাইট আছে। সেখানে গিয়ে একাউণ্ট খুলবে। এবং মিনিমাম ৩০ মিনিট সেখানে স্পেন্ড করবে। দেখবে কিভাবে কি উত্তর দেয়। 
+// Dones
